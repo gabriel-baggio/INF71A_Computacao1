@@ -11,6 +11,7 @@ int main()
     printf("digite em quantos segundos voce percorreu: ");
     scanf("%d", &seg);
 
+    seg = seg + (seg * 60);
     km_seg = (seg/distancia);
     km_min = (min/distancia);
 
