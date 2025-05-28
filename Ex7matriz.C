@@ -91,7 +91,7 @@ int main()
 {
     int matriz1[5][5], matriz2[5][5], i = 0, j = 0, a = 0, b, c= 0;
     printf("Digite qual opçao voce quer:\n");
-    printf("opçoes:\n 1) cirar duas matrizes de numeros inteiros.\n 2)imprimir as matrizes.\n 3)somar as matrizes. \n 4)subtrair as matrizes.\n 5)multiplicar as matrizes.\n 6)parar programa.\n");
+    printf("opçoes:\n 1)crirar duas matrizes de numeros inteiros.\n 2)imprimir as matrizes.\n 3)somar as matrizes. \n 4)subtrair as matrizes.\n 5)multiplicar as matrizes.\n 6)parar programa.\n");
     scanf("%d",&b);
     while(c != 10){
         if(b == 1){
