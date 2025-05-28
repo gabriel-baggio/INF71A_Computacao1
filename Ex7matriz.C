@@ -116,8 +116,7 @@ int main()
         else if(b == 6){
             return 0;
         }else{
-            printf("nao existe nenhuma matriz, favor criar as matrizes primeiro: ");
-            scanf("%d",&b);
+            printf("nao existe nenhuma matriz, favor criar as matrizes primeiro. ");
         }
         printf("\necolha outra opçao:");
         scanf("%d",&b);
